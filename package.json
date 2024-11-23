@@ -4,12 +4,16 @@
   "description": "Backend server for the Personal Notes Manager application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "install": "npm rebuild sqlite3"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "sqlite": "^4.0.21",
     "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=20.17.0"
   }
 }
